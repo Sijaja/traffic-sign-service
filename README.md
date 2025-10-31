@@ -1,9 +1,3 @@
-# traffic-signs
-
-# Recreate the German README.md file for Mohamad
-
-readme_md = """
-
 # Traffic Sign Service
 
 Ein Full‑Stack‑Projekt zur Verwaltung und Analyse von Verkehrszeichen‑Beobachtungen.  
@@ -33,7 +27,7 @@ Bestehend aus einem **Spring Boot Backend**, einem **React Frontend** und einem 
 
 ---
 
-## 🧩 Projektstruktur
+## Projektstruktur
 
 ```
 TrafficSignService/
@@ -46,7 +40,7 @@ TrafficSignService/
 
 ---
 
-## 🐳 Start mit Docker
+## Start mit Docker
 
 ### Voraussetzungen
 
@@ -68,7 +62,7 @@ Danach sind die Dienste erreichbar unter:
 
 ---
 
-## 🔄 Datenfluss
+## Datenfluss
 
 ```text
 Uploader (Node)  →  Backend (Spring Boot)  →  H2‑DB
@@ -78,17 +72,8 @@ Uploader (Node)  →  Backend (Spring Boot)  →  H2‑DB
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Mohamad Sijaja**  
-Backend Developer · Java · Spring Boot · React  
-📍 Linz, Österreich
-"""
-
-# Save the README.md file
-
-output_path = "/mnt/data/README.md"
-with open(output_path, "w", encoding="utf-8") as f:
-f.write(readme_md)
-
-output_path
+Backend Developer · Java · Spring Boot
+Linz, Österreich
